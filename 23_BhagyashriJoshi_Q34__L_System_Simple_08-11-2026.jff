@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+<type>lsystem</type>
+<Lsystem>
+<axiom>F</axiom>
+<productions>
+<production><left>F</left><right>F+F-F-F+F</right></production>
+</productions>
+<parameters>
+<parameter><name>angle</name><value>90</value></parameter>
+<parameter><name>iterations</name><value>2</value></parameter>
+</parameters>
+</Lsystem>
+</structure>
