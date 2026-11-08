@@ -9,7 +9,7 @@ This repository contains JFLAP exercises for automata theory and formal language
 ## Setup
 
 1. Install a Java runtime if one is not already available.
-2. Download JFLAP from the [official JFLAP website](https://www.jflap.org/).
+2. Download JFLAP from the https://www.jflap.org/
 3. Launch JFLAP (usually by opening its `.jar` file; if needed, run `java -jar JFLAP.jar` from a terminal).
 4. In JFLAP, choose **File → Open** and select a `.jff` file from this repository.
 5. Use the relevant JFLAP menu to inspect or simulate the model. The exact menu depends on the exercise type.
@@ -59,9 +59,7 @@ This repository contains JFLAP exercises for automata theory and formal language
 
 - Open `.jff` files in JFLAP rather than editing them as ordinary text; they store the model and its structure.
 - The Q35 `.jff` file is a context-free grammar for `{0ⁿ1ⁿ | n ≥ 0}`; it represents the language, not the interactive pumping-lemma proof. Keep the `.txt` file for the proof and JFLAP instructions.
-- Files with the same question number may represent different stages or representations of one exercise (for example, the input grammar and its converted automaton).
-- File names identify the question topic and, in most cases, the representation. A few files have inconsistent extensions or naming; for example, the Q9 and Q10 files end in `.jff.jff`. If JFLAP does not recognize one automatically, try opening it through **File → Open**.
-- The descriptions above are based on the file names and formats. Refer to the original assignment prompt for exact exercise wording, input languages, and acceptance conditions.
+
 
 ## References
 
